@@ -1,0 +1,145 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Basic HTML5 Template</title>
+  <meta name="description" content="Smooth Project">
+  <meta name="author" content="SitePoint">
+
+  <meta property="og:title" content="A Basic HTML5 Template">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
+  <meta property="og:description" content="A simple HTML5 Template for new projects.">
+  <meta property="og:image" content="image.png">
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="smooth.css">
+
+</head>
+<body>
+    <div class="header" id="myHeader">
+        <a href="#default" class="logo">CompanyLogo</a>
+        <div class="header-right">
+          <a class="active" href="#home">Home</a>
+            <div class="container-3">
+                <!-- Trigger the modal with a button -->
+                <button type="button-1" class="btn btn-light" data-toggle="modal" data-target="#myModal">Contact</button>
+              
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" role="dialog">
+                  <div class="modal-dialog">
+                  
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Modal Header</h4>
+                      </div>
+                      <div class="modal-body">
+                        <p>Some text in the modal.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+          <div class="container-3">
+            <!-- Trigger the modal with a button -->
+            <button type="button-1" class="btn btn-light" data-toggle="modal" data-target="#myModal">About</button>
+          
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" role="dialog">
+              <div class="modal-dialog">
+              
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Modal Header</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>Some text in the modal.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+          <div class="column-2">
+            <h1 class="xlarge-font"><b>Smooth</b></h1>
+            <h1 class="large-font" style="color:orange;"><b>Why smooth?</b></h1>
+            <p><span style="font-size:36px">Take photos like a pro.</span> You should buy this app because lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <button class="button">About</button>
+          </div>
+          <div class="column-1">
+              <img src="/w3images/img_app.jpg" width="335" height="471" >
+          </div>
+        </div>
+      </div>
+<div class="content">
+    <!-- Clarity Section -->
+<div class="container" style="background-color:#f1f1f1">
+    <div class="row">
+      <div class="column-1">
+        <img src="/w3images/app5.jpg" alt="App" width="335" height="471">
+      </div>
+      <div class="column-2">
+        <h1 class="xlarge-font"><b>Photos</b></h1>
+        <h1 class="large-font" style="color:red;"><b>I make it</b></h1>
+        <p><span style="font-size:24px">Photograpy is our best side.</span> Sharp and clear photos with the world's best photo engine.</p>
+        <button class="button" style="background-color:red">Read More</button>
+      </div>
+    </div>
+  </div>
+  
+  <!-- The App Section -->
+  <div class="container">
+    <div class="row">
+      <div class="column-2">
+        <h1 class="xlarge-font"><b>Smooth</b></h1>
+        <h1 class="large-font" style="color:orange;"><b>Why smooth?</b></h1>
+        <p><span style="font-size:36px">Take photos like a pro.</span> You should buy this app because lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <button class="button">About</button>
+      </div>
+      <div class="column-1">
+          <img src="/w3images/img_app.jpg" width="335" height="471" >
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- your content here... -->
+  <script>
+ window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+  </script>
+</body>
+</html>
