@@ -104,12 +104,13 @@
 }
 
 .button1:hover {
-  background: var(--white);
+  background: var(--black);
   transition: all 0.3s ease;
+  color: var(--white);
 }
 
 .navbar__links:hover {
-  color: var(--orange);
+  color: var(--black);
   transition: all 0.3s ease;
 }
 
@@ -156,7 +157,7 @@
     height: 3px;
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
-    background: #fff;
+    background: var(--black);
   }
 
   .navbar__item {
@@ -252,9 +253,14 @@ body {
   padding: 14px 28px;
   font-size: 15px;
   cursor: pointer;
-  background-color: #04AA6D;
+  background-color: var(--orange);
 }
-
+.button:hover {
+  background: var(--orange);
+  transition: all 0.3s ease;
+  color: var(--white);
+  padding: 16px 30px;
+}
 img {
   display: block;
   height: auto;
