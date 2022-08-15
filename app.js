@@ -7,4 +7,8 @@ menu.addEventListener('click', function() {
 });
 
 
-
+$(".hover").mouseleave(
+  function() {
+    $(this).removeClass("hover");
+  }
+);
