@@ -349,6 +349,29 @@ ul, li{
   cursor: pointer;
 }
 */
+.gallery{
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  object-position: bottom;
+  padding: 5px;
+  transition: all .5 ease-in-out;
+  
+}
+.gallery:hover{
+  transform: scale(1.5);
+}
+.container_gallery{
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1495px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .container1495 {
   max-width: 1495px;
   margin-right: auto;
