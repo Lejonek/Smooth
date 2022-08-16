@@ -23,6 +23,7 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  background-color: white;
 }
 
 .navbar__container {
@@ -206,7 +207,6 @@ body {
   padding: 64px;
   margin-top: 50px;
   margin-bottom: 50px;
-  background-color: #f1f1f1;
 }
 
 .row:after {
@@ -270,11 +270,12 @@ img {
 
 
 .gallery{
-  width: 450px;
+  width: 498px;
   height: 450px;
   object-fit: cover;
   object-position: bottom;
   padding: 5px;
+  
 }
 .gallery:hover{
   filter: opacity(0.8);
@@ -283,7 +284,6 @@ img {
 }
 .container_gallery{
   display: flex;
-  max-width: 1200px;
   width: 100%;
   flex-wrap: wrap;
   justify-content: center;
@@ -293,9 +293,11 @@ img {
 }
 
 .container1495 {
+
   max-width: 1495px;
   margin-right: auto;
   margin-left: auto;
+  background-color: #c1dafe
 }
 
 div{
@@ -307,7 +309,7 @@ div{
 }
 
 .h4{
-  color: var(--winter);
+  color: var(--navy);
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 24px;
@@ -607,4 +609,7 @@ div{
     margin-left: 0;
   }
 
+}
+.background{
+  background-color: #c1dafe;
 }
